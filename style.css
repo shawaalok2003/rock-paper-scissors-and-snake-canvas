@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+    font-style: italic;
+    background-color: #5b5a5d;
+    margin: 10px;
+    padding: 3px;
+  }
+  
+  .container {
+    max-width: 1500px;
+    background-color: #d6e2ca;
+    margin: 0 auto;
+    padding: 40px;
+    
+  }
+  
+  /* Rock Paper Scissors styles */
+  #game{
+    background-image:url(/images/kameron-kincade-A4PW_x1XrL4-unsplash.jpg);
+
+    height: 300px;
+
+    background-size:contain;
+  }
+  .game-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  #game {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  #choices {
+    margin-bottom:30px;
+  }
+  
+  .choice-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .class{
+    background-size: cover;
+
+  }
+  .choice-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fbf8f8;
+    padding: 20px;
+    background-color: #131111;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  #snakeCanvas {
+    display: block;
+    margin: 40px auto;
+    border: 1px solid #333;
+    background-image: url(/images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-size: cover;
+  }

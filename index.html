@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors + Snake Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="game-title">Rock Paper Scissors</h1>
+    <h2>lets have fun</h2>
+  
+    <div id="game">
+      <div id="choices">
+        <br>
+        <button id="rock" class="choice-btn">
+          <img src="/images/rock.png" alt="Rock" class="choice-img">
+        </button>
+        <button id="paper" class="choice-btn">
+          <img src="/images/paper.png" alt="Paper" class="choice-img">
+        </button>
+        <button id="scissors" class="choice-btn">
+          <img src="/images/paper.png" alt="Scissors" class="choice-img">
+        </button>
+      </div>
+      <br>
+      <br>
+      <div id="result" class="result-text"></div>
+    </div>
+          <div id="snake-game">
+            <h1 class="game-title">Snake Game</h1>
+            <canvas id="snakeCanvas" width="400" height="400"></canvas>
+          </div>
+          <div id="game-over" style="display: none;">
+            <h2>Game Over</h2>
+            <p>Final Score: <span id="final-score"></span></p>
+            <p>Press Space to Restart</p>
+        
+        </div>
+
+
+  <script src="snake.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Add event listener to start the game on page load
+    window.addEventListener("load", function () {
+      resetGame();
+    });
+  </script>
+</body>
+</html>
+
+
